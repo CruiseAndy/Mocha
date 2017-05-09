@@ -16,4 +16,4 @@
  - mocha "filename.js"
 
 ## Create test report
- - mocha --reporter mochawesome
+ - mocha "filename.js" --reporter mochawesome
