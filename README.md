@@ -17,3 +17,6 @@
 
 ## Create test report
  - mocha "filename.js" --reporter mochawesome
+
+## Reference
+http://adamgruber.github.io/mochawesome/
