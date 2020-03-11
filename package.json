@@ -1,0 +1,27 @@
+{
+  "name": "APIUnitTest",
+  "version": "1.0.0",
+  "description": "JVD API Unit Test",
+  "main": "index.js",
+  "author": "kevin",
+  "scripts": {
+    "test": "mocha --require @babel/register --timeout 10000 src/unitTest/*.js",
+    "report": "mocha --require @babel/register --timeout 10000 src/unitTest/*.js --reporter mochawesome"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-asserttype": "^1.0.5",
+    "mocha": "^6.2.2",
+    "mochawesome": "^4.1.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}

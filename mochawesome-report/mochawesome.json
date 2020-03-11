@@ -1,181 +1,834 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 1,
-    "passes": 1,
+    "suites": 20,
+    "tests": 10,
+    "passes": 9,
     "pending": 0,
-    "failures": 0,
-    "start": "2017-05-09T07:47:04.510Z",
-    "end": "2017-05-09T07:47:04.535Z",
-    "duration": 25,
-    "testsRegistered": 1,
-    "passPercent": 100,
+    "failures": 1,
+    "start": "2019-11-14T06:01:31.816Z",
+    "end": "2019-11-14T06:01:38.980Z",
+    "duration": 7164,
+    "testsRegistered": 10,
+    "passPercent": 90,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
     "skipped": 0,
-    "hasSkipped": false,
-    "passPercentClass": "success",
-    "pendingPercentClass": "danger"
+    "hasSkipped": false
   },
-  "suites": {
-    "title": "",
-    "suites": [
-      {
-        "title": "channel",
-        "suites": [
-          {
-            "title": "getListData",
-            "suites": [],
-            "tests": [
-              {
-                "title": "should receive true",
-                "fullTitle": "channel getListData should receive true",
-                "timedOut": false,
-                "duration": 4,
-                "state": "passed",
-                "speed": "fast",
-                "pass": true,
-                "fail": false,
-                "pending": false,
-                "code": "assert.equal(true, echo.print([1, 2], [1, 2]));\n// echo.print([1, 2], [1, 2]).should.equal(true);",
-                "err": {},
-                "isRoot": false,
-                "uuid": "0c1132ac-bd44-42d7-9ae9-413702371041",
-                "parentUUID": "3d54bf7d-9276-4d2b-984b-fb7ca6832d94",
-                "skipped": false
-              }
-            ],
-            "pending": [],
-            "root": false,
-            "_timeout": 2000,
-            "file": "\\test.js",
-            "uuid": "3d54bf7d-9276-4d2b-984b-fb7ca6832d94",
-            "fullFile": "C:\\Andy\\Program\\Mocha\\test.js",
-            "passes": [
-              {
-                "title": "should receive true",
-                "fullTitle": "channel getListData should receive true",
-                "timedOut": false,
-                "duration": 4,
-                "state": "passed",
-                "speed": "fast",
-                "pass": true,
-                "fail": false,
-                "pending": false,
-                "code": "assert.equal(true, echo.print([1, 2], [1, 2]));\n// echo.print([1, 2], [1, 2]).should.equal(true);",
-                "err": {},
-                "isRoot": false,
-                "uuid": "0c1132ac-bd44-42d7-9ae9-413702371041",
-                "parentUUID": "3d54bf7d-9276-4d2b-984b-fb7ca6832d94",
-                "skipped": false
-              }
-            ],
-            "failures": [],
-            "skipped": [],
-            "hasTests": true,
-            "hasSuites": false,
-            "totalTests": 1,
-            "totalPasses": 1,
-            "totalFailures": 0,
-            "totalPending": 0,
-            "totalSkipped": 0,
-            "hasPasses": true,
-            "hasFailures": false,
-            "hasPending": false,
-            "hasSkipped": false,
-            "duration": 4,
-            "rootEmpty": false
-          }
-        ],
-        "tests": [],
-        "pending": [],
-        "root": false,
-        "_timeout": 2000,
-        "file": "\\test.js",
-        "uuid": "df342519-16f1-42c8-8691-b7283cfeb8f8",
-        "fullFile": "C:\\Andy\\Program\\Mocha\\test.js",
-        "passes": [],
-        "failures": [],
-        "skipped": [],
-        "hasTests": false,
-        "hasSuites": true,
-        "totalTests": 0,
-        "totalPasses": 0,
-        "totalFailures": 0,
-        "totalPending": 0,
-        "totalSkipped": 0,
-        "hasPasses": false,
-        "hasFailures": false,
-        "hasPending": false,
-        "hasSkipped": false,
-        "duration": 0,
-        "rootEmpty": false
-      }
-    ],
-    "tests": [],
-    "pending": [],
-    "root": true,
-    "_timeout": 2000,
-    "uuid": "a1db7895-909d-41df-a30a-f7e584b2e725",
-    "fullFile": "",
-    "file": "",
-    "passes": [],
-    "failures": [],
-    "skipped": [],
-    "hasTests": false,
-    "hasSuites": true,
-    "totalTests": 0,
-    "totalPasses": 0,
-    "totalFailures": 0,
-    "totalPending": 0,
-    "totalSkipped": 0,
-    "hasPasses": false,
-    "hasFailures": false,
-    "hasPending": false,
-    "hasSkipped": false,
-    "duration": 0,
-    "rootEmpty": true
-  },
-  "allTests": [
+  "results": [
     {
-      "title": "should receive true",
-      "fullTitle": "getListData should receive true",
-      "timedOut": false,
-      "duration": 4,
-      "state": "passed",
-      "speed": "fast",
-      "pass": true,
-      "fail": false,
-      "pending": false,
-      "code": "assert.equal(true, echo.print([1, 2], [1, 2]));\n// echo.print([1, 2], [1, 2]).should.equal(true);",
-      "err": {},
-      "isRoot": false,
-      "uuid": "0c1132ac-bd44-42d7-9ae9-413702371041",
-      "parentUUID": "3d54bf7d-9276-4d2b-984b-fb7ca6832d94",
-      "skipped": false
+      "uuid": "03df945a-475b-4fb0-813d-e16a972deaed",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "65d48489-0504-40e8-bd26-71ad5341306f",
+          "title": "Commmunity Bonuses",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityBonuses.js",
+          "file": "/src/unitTest/CommunityBonuses.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Bonuses \"before all\" hook",
+              "timedOut": false,
+              "duration": 1614,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getCommunityPromotionsList().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "f0e76cc1-5bf4-4a06-b0e4-77b9ba0bbf1d",
+              "parentUUID": "65d48489-0504-40e8-bd26-71ad5341306f",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "d7f00e38-f495-4479-acf4-c00407d9a76f",
+              "title": "Commmunity Bonuses/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityBonuses.js",
+              "file": "/src/unitTest/CommunityBonuses.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Bonuses",
+                  "fullTitle": "Commmunity Bonuses Commmunity Bonuses/Get Commmunity Bonuses",
+                  "timedOut": false,
+                  "duration": 7,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\nif (apiResponse.length != 0) {\n  apiResponse.map(function (item) {\n    (0, _chai.expect)(item).to.be.object();\n    (0, _chai.expect)(Object.values(item)).to.have.lengthOf(8);\n    (0, _chai.expect)(item).to.have.property(\"id\");\n    (0, _chai.expect)(item.id).to.be.number();\n    (0, _chai.expect)(item).to.have.property(\"name\");\n    (0, _chai.expect)(item.name).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"category\");\n    (0, _chai.expect)(item.category).to.be.string();\n    (0, _chai.expect)(categoryList).to.include(item.category);\n    (0, _chai.expect)(item).to.have.property(\"status\");\n    (0, _chai.expect)(item.status).to.be.string();\n    (0, _chai.expect)(['off', 'auto', 'on']).to.include(item.status);\n    (0, _chai.expect)(item).to.have.property(\"image\");\n    (0, _chai.expect)(item).to.have.property(\"genre\");\n    (0, _chai.expect)(item.genre).to.be.string();\n    (0, _chai.expect)(['deposit', 'validation', 'rebate', 'others']).to.include(item.genre);\n    (0, _chai.expect)(item).to.have.property(\"start_at\");\n    (0, _chai.expect)(item.start_at).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"end_at\");\n    (0, _chai.expect)(item.end_at).to.be.string();\n  });\n}",
+                  "err": {},
+                  "uuid": "f46272e4-5092-4d68-b0ad-2be4a63da4f6",
+                  "parentUUID": "d7f00e38-f495-4479-acf4-c00407d9a76f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "f46272e4-5092-4d68-b0ad-2be4a63da4f6"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 7,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "8ef84153-00fd-4eb4-b8ad-961bcbd539f5",
+          "title": "Commmunity Games",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityGames.js",
+          "file": "/src/unitTest/CommunityGames.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Games \"before all\" hook",
+              "timedOut": false,
+              "duration": 1210,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getGamesInfo().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "95ad9dba-9474-4c7e-92c5-5ce36e8ec394",
+              "parentUUID": "8ef84153-00fd-4eb4-b8ad-961bcbd539f5",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "fbc44545-3792-47d3-bb40-06da0bdc811f",
+              "title": "Commmunity Games/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityGames.js",
+              "file": "/src/unitTest/CommunityGames.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Games",
+                  "fullTitle": "Commmunity Games Commmunity Games/Get Commmunity Games",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "failed",
+                  "speed": null,
+                  "pass": false,
+                  "fail": true,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.object();\nObject.entries(apiResponse).map(function (category) {\n  var _category = _slicedToArray(category, 2),\n      name = _category[0],\n      games = _category[1];\n  (0, _chai.expect)(gameNames).to.include(name);\n  games.map(function (item) {\n    (0, _chai.expect)(item).to.have.property(\"name\");\n    (0, _chai.expect)(item.name).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"game_url\");\n    (0, _chai.expect)(item.game_url).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"image_url\");\n    (0, _chai.expect)(item.image_url).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"app_image_url\");\n    (0, _chai.expect)(item.app_image_url).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"game_logo_url\");\n    (0, _chai.expect)(item.game_logo_url).to.be.string();\n    (0, _chai.expect)(item).to.have.property(\"status\");\n    (0, _chai.expect)(item.status).to.be.string();\n    (0, _chai.expect)(['active', 'maintain', 'coming_soon', 'close']).to.include(item.status);\n  });\n});",
+                  "err": {
+                    "message": "AssertionError: expected null to be string",
+                    "estack": "AssertionError: expected null to be string\n    at map (src/unitTest/CommunityGames.js:53:44)\n    at Array.map (<anonymous>)\n    at map (src/unitTest/CommunityGames.js:42:15)\n    at Array.map (<anonymous>)\n    at Context.<anonymous> (src/unitTest/CommunityGames.js:37:35)",
+                    "diff": null
+                  },
+                  "uuid": "3e48b065-a201-4777-97a0-0d3ea81837b6",
+                  "parentUUID": "fbc44545-3792-47d3-bb40-06da0bdc811f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [],
+              "failures": [
+                "3e48b065-a201-4777-97a0-0d3ea81837b6"
+              ],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "c166a6cf-3109-46dc-8b8a-91c82f83b755",
+          "title": "Commmunity Payments",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+          "file": "/src/unitTest/CommunityPayments.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Payments \"before all\" hook",
+              "timedOut": false,
+              "duration": 535,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getCompanyBankList().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "8035e6b7-b04e-4764-9f0e-cef966d022d6",
+              "parentUUID": "c166a6cf-3109-46dc-8b8a-91c82f83b755",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3da77cd6-92a5-47fc-b4d2-7ba78cd8d953",
+              "title": "Commmunity Card Banks/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+              "file": "/src/unitTest/CommunityPayments.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Card Banks",
+                  "fullTitle": "Commmunity Payments Commmunity Card Banks/Get Commmunity Card Banks",
+                  "timedOut": false,
+                  "duration": 5,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\napiResponse.map(function (item) {\n  (0, _chai.expect)(item).to.be.object();\n  (0, _chai.expect)(Object.values(item)).to.have.lengthOf(2);\n  (0, _chai.expect)(item).to.have.property(\"code\");\n  (0, _chai.expect)(item.code).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"name\");\n  (0, _chai.expect)(item.name).to.be.string();\n});",
+                  "err": {},
+                  "uuid": "181dc351-9300-4cc1-90b4-3d3b1ca035f2",
+                  "parentUUID": "3da77cd6-92a5-47fc-b4d2-7ba78cd8d953",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "181dc351-9300-4cc1-90b4-3d3b1ca035f2"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 5,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "516548b4-fe37-47a2-857a-3a22dfa73608",
+          "title": "Commmunity Payments",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+          "file": "/src/unitTest/CommunityPayments.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Payments \"before all\" hook",
+              "timedOut": false,
+              "duration": 502,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getDepositBankList().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "0adc3324-e4b5-4d9a-9a63-6e6f8304db85",
+              "parentUUID": "516548b4-fe37-47a2-857a-3a22dfa73608",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "ddf2f405-1906-4480-a250-9d0efcbe1b53",
+              "title": "Commmunity Deposit Banks/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+              "file": "/src/unitTest/CommunityPayments.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Deposit Banks",
+                  "fullTitle": "Commmunity Payments Commmunity Deposit Banks/Get Commmunity Deposit Banks",
+                  "timedOut": false,
+                  "duration": 2,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\napiResponse.map(function (item) {\n  (0, _chai.expect)(item).to.be.object();\n  (0, _chai.expect)(Object.values(item)).to.have.lengthOf(2);\n  (0, _chai.expect)(item).to.have.property(\"code\");\n  (0, _chai.expect)(item.code).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"name\");\n  (0, _chai.expect)(item.name).to.be.string();\n});",
+                  "err": {},
+                  "uuid": "a034d628-ac29-423f-875a-64596c8ade8e",
+                  "parentUUID": "ddf2f405-1906-4480-a250-9d0efcbe1b53",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a034d628-ac29-423f-875a-64596c8ade8e"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 2,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "9973b40b-20b6-4c50-95cb-88d65e35162a",
+          "title": "Commmunity Payments",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+          "file": "/src/unitTest/CommunityPayments.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Payments \"before all\" hook",
+              "timedOut": false,
+              "duration": 1128,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getPayments().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "9ed25e5f-1038-45eb-b015-ca926793ef9f",
+              "parentUUID": "9973b40b-20b6-4c50-95cb-88d65e35162a",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "e8d7bbc0-2973-4554-be8a-e02528f13e56",
+              "title": "Commmunity Payments/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPayments.js",
+              "file": "/src/unitTest/CommunityPayments.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Payments",
+                  "fullTitle": "Commmunity Payments Commmunity Payments/Get Commmunity Payments",
+                  "timedOut": false,
+                  "duration": 3,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\napiResponse.map(function (item) {\n  (0, _chai.expect)(item).to.be.object();\n  (0, _chai.expect)(Object.values(item)).to.have.lengthOf(9);\n  (0, _chai.expect)(item).to.have.property(\"id\");\n  (0, _chai.expect)(item.id).to.be.number();\n  (0, _chai.expect)(item).to.have.property(\"app_page\");\n  (0, _chai.expect)(item.app_page).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"type\");\n  (0, _chai.expect)(item.type).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"name\");\n  (0, _chai.expect)(item.name).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"min\");\n  (0, _chai.expect)(item.min).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"max\");\n  (0, _chai.expect)(item.max).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"step\");\n  (0, _chai.expect)(item.step).to.be.number();\n  (0, _chai.expect)(item).to.have.property(\"status\");\n  (0, _chai.expect)(item.status).to.be.string();\n  (0, _chai.expect)(['active', 'close', 'maintain', 'coming_soon']).to.include(item.status);\n  (0, _chai.expect)(item).to.have.property(\"image_url\");\n});",
+                  "err": {},
+                  "uuid": "488efc41-be31-4678-a974-22f2bcf902dd",
+                  "parentUUID": "e8d7bbc0-2973-4554-be8a-e02528f13e56",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "488efc41-be31-4678-a974-22f2bcf902dd"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 3,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "0591cd59-704f-4854-a235-e6dd7b44490e",
+          "title": "Commmunity Public",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+          "file": "/src/unitTest/CommunityPublic.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Public \"before all\" hook",
+              "timedOut": false,
+              "duration": 427,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getQA().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "24b327a5-ebd1-44c5-aab6-5f175b82d91d",
+              "parentUUID": "0591cd59-704f-4854-a235-e6dd7b44490e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "7dd36c61-2838-446c-97c5-2893d368f20c",
+              "title": "Commmunity QA/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+              "file": "/src/unitTest/CommunityPublic.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity QA",
+                  "fullTitle": "Commmunity Public Commmunity QA/Get Commmunity QA",
+                  "timedOut": false,
+                  "duration": 5,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.object();\nObject.entries(apiResponse).map(function (item) {\n  var _item = _slicedToArray(item, 2),\n      kind = _item[0],\n      content = _item[1];\n  (0, _chai.expect)(qaKindList).to.include(kind);\n  content.map(function (objItem) {\n    (0, _chai.expect)(Object.values(objItem)).to.have.lengthOf(3);\n    (0, _chai.expect)(objItem).to.have.property(\"order\");\n    (0, _chai.expect)(objItem.order).to.be.number();\n    (0, _chai.expect)(objItem).to.have.property(\"question\");\n    (0, _chai.expect)(objItem.question).to.be.string();\n    (0, _chai.expect)(objItem).to.have.property(\"answer\");\n    (0, _chai.expect)(objItem.answer).to.be.string();\n  });\n});",
+                  "err": {},
+                  "uuid": "dc3bf6e1-360b-437c-8633-416f9f418823",
+                  "parentUUID": "7dd36c61-2838-446c-97c5-2893d368f20c",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "dc3bf6e1-360b-437c-8633-416f9f418823"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 5,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "e61c59e8-77d7-4a25-b196-4bd72d53e3a7",
+          "title": "Commmunity Public",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+          "file": "/src/unitTest/CommunityPublic.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Public \"before all\" hook",
+              "timedOut": false,
+              "duration": 529,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getNews().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "70801fc1-353a-45e0-9920-087dac583ee2",
+              "parentUUID": "e61c59e8-77d7-4a25-b196-4bd72d53e3a7",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3576ef98-7d2f-4b74-a891-3c21c5b86d39",
+              "title": "Commmunity News/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+              "file": "/src/unitTest/CommunityPublic.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity News",
+                  "fullTitle": "Commmunity Public Commmunity News/Get Commmunity News",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\napiResponse.map(function (item) {\n  (0, _chai.expect)(Object.values(item)).to.have.lengthOf(3);\n  (0, _chai.expect)(item).to.have.property(\"title\");\n  (0, _chai.expect)(item.title).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"content\");\n  (0, _chai.expect)(item.content).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"updated_at\");\n  (0, _chai.expect)(item.updated_at).to.be.string();\n});",
+                  "err": {},
+                  "uuid": "81d7521d-41df-43c3-9e3b-a5a034cc5aa0",
+                  "parentUUID": "3576ef98-7d2f-4b74-a891-3c21c5b86d39",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "81d7521d-41df-43c3-9e3b-a5a034cc5aa0"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "9e46819c-3263-401b-8fc0-dc42376b61c0",
+          "title": "Commmunity Public",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+          "file": "/src/unitTest/CommunityPublic.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Public \"before all\" hook",
+              "timedOut": false,
+              "duration": 229,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getCarousel().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "7a405f14-bd68-4e4d-8cce-fc0f0156732b",
+              "parentUUID": "9e46819c-3263-401b-8fc0-dc42376b61c0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "7e1fa60b-d6f7-4931-b765-515861ff5def",
+              "title": "Commmunity Slides/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+              "file": "/src/unitTest/CommunityPublic.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Slides",
+                  "fullTitle": "Commmunity Public Commmunity Slides/Get Commmunity Slides",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.array();\napiResponse.map(function (item) {\n  (0, _chai.expect)(Object.values(item)).to.have.lengthOf(3);\n  (0, _chai.expect)(item).to.have.property(\"webImageUrl\");\n  (0, _chai.expect)(item.webImageUrl).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"mobileImageUrl\");\n  (0, _chai.expect)(item.mobileImageUrl).to.be.string();\n  (0, _chai.expect)(item).to.have.property(\"linkPath\");\n  (0, _chai.expect)(item.linkPath).to.be.string();\n});",
+                  "err": {},
+                  "uuid": "27cda0e5-5bc5-4475-bf37-a0d0b9fabb40",
+                  "parentUUID": "7e1fa60b-d6f7-4931-b765-515861ff5def",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "27cda0e5-5bc5-4475-bf37-a0d0b9fabb40"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "5f8dc339-66db-4ee5-90ff-855137bc72a3",
+          "title": "Commmunity Public",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+          "file": "/src/unitTest/CommunityPublic.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "Commmunity Public \"before all\" hook",
+              "timedOut": false,
+              "duration": 220,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.getPreload().then(function (res) {\n  apiResponse = res;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "e994fd5e-d7ce-4700-8e4d-5043bf3a1ecd",
+              "parentUUID": "5f8dc339-66db-4ee5-90ff-855137bc72a3",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3a59e751-f3af-4db4-b30f-fc650ccfc96b",
+              "title": "Commmunity Preload/Get",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/CommunityPublic.js",
+              "file": "/src/unitTest/CommunityPublic.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Commmunity Preload",
+                  "fullTitle": "Commmunity Public Commmunity Preload/Get Commmunity Preload",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.object();\n(0, _chai.expect)(apiResponse).to.have.property(\"app_version\");\n(0, _chai.expect)(apiResponse.app_version).to.be.string();\n(0, _chai.expect)(apiResponse.app_version).to.not.be.empty;\n(0, _chai.expect)(apiResponse).to.have.property(\"download_ipa_url\");\n(0, _chai.expect)(apiResponse.download_ipa_url).to.be.string();\n(0, _chai.expect)(apiResponse.download_ipa_url).to.not.be.empty;\n(0, _chai.expect)(apiResponse).to.have.property(\"download_apk_url\");\n(0, _chai.expect)(apiResponse.download_apk_url).to.be.string();\n(0, _chai.expect)(apiResponse.download_apk_url).to.not.be.empty;\n(0, _chai.expect)(apiResponse).to.have.property(\"redirect_download_url\");\n(0, _chai.expect)(apiResponse.redirect_download_url).to.be.string();\n(0, _chai.expect)(apiResponse.redirect_download_url).to.not.be.empty; // apiResponse.map(item => {\n// \texpect(Object.values(item)).to.have.lengthOf(3);\n// \texpect(item).to.have.property(\"webImageUrl\");\n// \texpect(item.webImageUrl).to.be.string();\n// \texpect(item).to.have.property(\"mobileImageUrl\");\n// \texpect(item.mobileImageUrl).to.be.string();\n// \texpect(item).to.have.property(\"linkPath\");\n// \texpect(item.linkPath).to.be.string();\n// });",
+                  "err": {},
+                  "uuid": "57991f50-72d0-44ff-8f8c-a2276ad0586a",
+                  "parentUUID": "3a59e751-f3af-4db4-b30f-fc650ccfc96b",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "57991f50-72d0-44ff-8f8c-a2276ad0586a"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "be180434-be30-47ca-a6f3-9c0c05844f7e",
+          "title": "User Authorization",
+          "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/UserAuth.js",
+          "file": "/src/unitTest/UserAuth.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "User Authorization \"before all\" hook",
+              "timedOut": false,
+              "duration": 712,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// exec any process before\nAPIAction.userLogin(\"jvd_autotest\", \"0987\").then(function (res) {\n  apiResponse = res;\n  APItoken = res.auth_token;\n})[\"catch\"](function (err) {\n  apiResponse = err;\n})[\"finally\"](function () {\n  done();\n});",
+              "err": {},
+              "uuid": "386988a7-6a28-4ca8-a4ee-9b53003da681",
+              "parentUUID": "be180434-be30-47ca-a6f3-9c0c05844f7e",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3fad7835-60a8-4e02-bdbf-53aef8e5b3bb",
+              "title": "User Login/Post",
+              "fullFile": "/Users/zhen-pengzhong/Desktop/JVD/APIUnitTest/src/unitTest/UserAuth.js",
+              "file": "/src/unitTest/UserAuth.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "User Login",
+                  "fullTitle": "User Authorization User Login/Post User Login",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "(0, _chai.expect)(apiResponse).to.be.object();\n(0, _chai.expect)(Object.values(apiResponse)).to.have.lengthOf(6);\n(0, _chai.expect)(apiResponse).to.have.property(\"message\");\n(0, _chai.expect)(apiResponse.message).to.be.string();\n(0, _chai.expect)(apiResponse).to.have.property(\"account\");\n(0, _chai.expect)(apiResponse.account).to.be.string();\n(0, _chai.expect)(apiResponse).to.have.property(\"user_confirmed\");\n(0, _chai.expect)(apiResponse.user_confirmed).to.be[\"boolean\"]();\n(0, _chai.expect)(apiResponse).to.have.property(\"user_status\");\n(0, _chai.expect)(apiResponse.user_status).to.be.string();\n(0, _chai.expect)(['active', 'sleep', 'suspend', 'closed']).to.include(apiResponse.user_status);\n(0, _chai.expect)(apiResponse).to.have.property(\"auth_token\");\n(0, _chai.expect)(apiResponse.auth_token).to.be.string();\n(0, _chai.expect)(apiResponse).to.have.property(\"has_notifications\");\n(0, _chai.expect)(apiResponse.has_notifications).to.be[\"boolean\"]();",
+                  "err": {},
+                  "uuid": "a1680a38-ae51-4b1f-971f-8fa20d176236",
+                  "parentUUID": "3fad7835-60a8-4e02-bdbf-53aef8e5b3bb",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "a1680a38-ae51-4b1f-971f-8fa20d176236"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 10000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 10000
     }
   ],
-  "allPending": [],
-  "allPasses": [
-    {
-      "title": "should receive true",
-      "fullTitle": "getListData should receive true",
-      "timedOut": false,
-      "duration": 4,
-      "state": "passed",
-      "speed": "fast",
-      "pass": true,
-      "fail": false,
-      "pending": false,
-      "code": "assert.equal(true, echo.print([1, 2], [1, 2]));\n// echo.print([1, 2], [1, 2]).should.equal(true);",
-      "err": {},
-      "isRoot": false,
-      "uuid": "0c1132ac-bd44-42d7-9ae9-413702371041",
-      "parentUUID": "3d54bf7d-9276-4d2b-984b-fb7ca6832d94",
-      "skipped": false
+  "meta": {
+    "mocha": {
+      "version": "6.2.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": null,
+      "version": "4.0.1"
     }
-  ],
-  "allFailures": [],
-  "copyrightYear": 2017
+  }
 }
